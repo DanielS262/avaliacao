@@ -1,0 +1,7 @@
+
+@mixin displayFlex($direcao,$eixo01,$eixo02){
+    display: flex;
+    flex-direction: $direcao;
+    justify-content: $eixo01;
+    align-items: $eixo02;
+}

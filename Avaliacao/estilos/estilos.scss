@@ -1,0 +1,31 @@
+@import "displayFlex";
+
+*{margin: 0px; padding: 0px;}
+body{
+
+    @include displayFlex(column,center,center);
+    background-color: #d1ccc0;
+
+    .container{
+        width: 500px;
+        margin: 100px auto;
+    }
+    .box01{
+        width: 400px;
+        height: 40px;
+        margin: 0 auto;
+
+        input[ type = text ]{
+            width: 250px;
+            height: 35px;
+        }
+        input[ type = button ]{
+            width: 80px;
+            height: 35px;
+        }
+       // .fundo{
+        //    background-image: ;
+       // }
+    }
+
+}

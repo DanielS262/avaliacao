@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d1ccc0;
+}
+
+body .container {
+  width: 500px;
+  margin: 100px auto;
+}
+
+body .box01 {
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+body .box01 input[type=text] {
+  width: 250px;
+  height: 35px;
+}
+
+body .box01 input[type=button] {
+  width: 80px;
+  height: 35px;
+}
+/*# sourceMappingURL=estilos.css.map */
